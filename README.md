@@ -26,6 +26,7 @@ While in git directory, run:
 ```
 $ npm install
 $ bower install
+$ gulp build
 $ gulp serve
 ```
 
