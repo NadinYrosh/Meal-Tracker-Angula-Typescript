@@ -9,11 +9,11 @@ import {Meal} from './meal.model';
 export class DietPipe implements PipeTransform {
   transform(input: Meal[], args) {
     var foodType = args[0];
-    if(foodType === "more") {
+    if(foodType === "Over 500") {
       return input.filter(function(food) {
         return food.calories > 500;
       });
-    } else if (foodType === "less") {
+    } else if (foodType === "Under 500") {
       return input.filter(function(food) {
         return food.calories <= 500;
       });

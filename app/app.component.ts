@@ -22,7 +22,7 @@ export class AppComponent {
   public meals: Meal[];
   constructor(){
     this.meals = [
-      new Meal('Curry Soup', 'Pumkin curry with broccoli and sweet potato', 500, 0),
+      new Meal('Curry Soup', 'Pumkin curry with broccoli and sweet potato', 550, 0),
       new Meal('Salad', 'Kale salad with tomatos, feta chees and cranberries', 300, 1),
       new Meal('Pasta', 'Whole grain pasta with alfredo sauce, spinach and shrimp', 400, 2),
     ];
